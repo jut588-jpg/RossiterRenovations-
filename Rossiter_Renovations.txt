@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rossiter Renovations</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f5f0e6 url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+      color: #3e2c1c;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 80px;
+    }
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      background-color: rgba(0,0,0,0.4);
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .header-content img {
+      width: 120px;
+      height: auto;
+      background-color: rgba(255,255,255,0.9);
+      padding: 8px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+    .header-text h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    .header-text p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+    nav {
+      background-color: #5b3a29;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #f5f0e6;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      border-bottom: 3px solid #c69c6d;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .service-card {
+      background-color: #fffaf3;
+      border: 1px solid #d8c3a5;
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1 1 250px;
+      max-width: 300px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .service-card h3 {
+      margin-top: 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    form {
+      display: grid;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #c69c6d;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #5b3a29;
+      color: #f5f0e6;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #7b4e36;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #5b3a29;
+      color: #f5f0e6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <img src="rossiter-logo.png" alt="Rossiter Renovations Logo">
+      <div class="header-text">
+        <h1>Rossiter Renovations</h1>
+        <p>Transforming spaces with timeless craftsmanship and rustic charm.</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Rossiter Renovations, we bring warmth and character into every project. 
+       From cozy farmhouse kitchens to reclaimed wood accents, our work blends 
+       modern functionality with rustic beauty. With years of experience, 
+       we take pride in creating spaces that feel like home.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Kitchen Remodels</h3>
+        <p>Custom rustic cabinetry, reclaimed wood finishes, and warm, inviting designs.</p>
+      </div>
+      <div class="service-card">
+        <h3>Bathroom Upgrades</h3>
+        <p>Earthy stonework, handcrafted vanities, and elegant yet practical layouts.</p>
+      </div>
+      <div class="service-card">
+        <h3>Whole-Home Renovations</h3>
+        <p>Seamlessly blend modern living with the comfort of rustic design.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80" alt="Rustic kitchen">
+      <img src="https://images.unsplash.com/photo-1505691723518-36a9c2eaf07d?auto=format&fit=crop&w=800&q=80" alt="Wood accents">
+      <img src="https://images.unsplash.com/photo-1582582420561-fd40bbafe7e5?auto=format&fit=crop&w=800&q=80" alt="Renovated living room">
+      <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80" alt="Rustic bathroom">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="text-align:center; font-size:0.9rem; margin-top:10px;">We typically reply within 24 hours.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rossiter Renovations. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
